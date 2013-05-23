@@ -5,7 +5,7 @@ PILOT_ACCELERATION = 0.08;
 
 	// Static keymap used within this module
 	var Keymap = {
-			90 : {
+			87 : {
 				ev : 'move',
 				action : 'front'
 			},
@@ -13,7 +13,7 @@ PILOT_ACCELERATION = 0.08;
 				ev : 'move',
 				action : 'back'
 			},
-			81 : {
+			65 : {
 				ev : 'move',
 				action : 'left'
 			},
