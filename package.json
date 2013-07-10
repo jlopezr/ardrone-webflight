@@ -17,11 +17,11 @@
     "artificial horizon"
   ],
   "dependencies": {
-    "ar-drone": "git+ssh://git@github.com:felixge/node-ar-drone.git#master",
+    "ar-drone": "git://github.com/felixge/node-ar-drone.git",
     "express": "3.0.x",
     "ejs": "~0.8.3",
     "socket.io": "~0.9.4",
-    "dronestream": "git+ssh://git@github.com:eschnou/node-dronestream.git#master",
+    "dronestream": "git://github.com/eschnou/node-dronestream.git",
     "dateformat": "~1.0.6-1.2.3",
     "line-reader": "~0.2.3",
     "buffered-reader": "~1.0.1"
