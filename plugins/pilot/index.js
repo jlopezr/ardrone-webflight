@@ -18,6 +18,10 @@ function pilot(name, deps) {
            console.log("config", cmd);
            return deps.client.config(cmd.key, cmd.value);
         });
+        socket.on('/pilot/animate', function (cmd) {
+           console.log("animate", cmd);
+           return deps.client.animate(cmd.action, 500);
+        });
     });
 };
 
