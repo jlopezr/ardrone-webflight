@@ -81,7 +81,7 @@ PILOT_ACCELERATION = 0.04;
          * Constructuor
          */
         var Pilot = function Pilot(cockpit) {
-                console.log("Loading Pilot plugin.");
+               console.log("Loading Pilot plugin.");
                 this.cockpit = cockpit;
                 this.speed = 0;
                 this.moving = false;
