@@ -14,6 +14,10 @@ function pilot(name, deps) {
            console.log("calibrate", cmd);
            return deps.client.calibrate(cmd.device_num);
         });
+	socket.on('/pilot/config', function (cmd) {
+           console.log("config", cmd);
+           return deps.client.config(cmd.key, cmd.value);
+        });
     });
 };
 
